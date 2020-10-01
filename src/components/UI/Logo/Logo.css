@@ -1,0 +1,8 @@
+.Logo {
+    height: 60px;
+}
+
+.Sidedraw .Logo {
+        margin-top: 32px;
+        margin-left: 32px;
+}

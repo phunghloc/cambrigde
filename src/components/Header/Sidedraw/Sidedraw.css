@@ -1,0 +1,60 @@
+.Menu {
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 2px #333 solid;
+    border-radius: 5px;
+    display: none;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.Menu div {
+    width: 70%;
+    border: 2px black solid;
+    margin: auto;
+    transition: all 0.5s ease-out;
+}
+
+.Menu-close div {
+    width: 80%;
+}
+
+.Menu-close div:nth-child(1){
+    transform:  rotateZ(-45deg) translate(-8px, 8px);
+}
+
+.Menu-close div:nth-child(2){
+    transform:  rotate(45deg);
+}
+
+.Menu-close div:nth-child(3){
+    transform:  rotate(-45deg) translate(8px, -8px);
+}
+
+@media (max-width: 767px) {
+    .Menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+.Sidedraw {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: all 0.3s ease-out;
+}
+
+.Sidedraw-open {
+    transform: translateX(0);
+}
+
+.Sidedraw-close {
+    transform: translateX(-100%);
+}

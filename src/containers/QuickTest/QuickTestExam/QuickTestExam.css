@@ -1,0 +1,12 @@
+.Exam-Screen {
+    background-color: white;
+    padding: 0;
+}
+
+.Exam-Screen-SendBtn {
+    text-align: center;
+}
+
+.Exam-Screen a {
+    margin: auto;
+}

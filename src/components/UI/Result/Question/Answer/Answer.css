@@ -1,0 +1,18 @@
+.Answer-Big {
+    width: 80%;
+    margin: auto;
+}
+
+.Answer-Big .Answer {
+    width: 100%;
+}
+
+.Answer-Big-inner {
+    position: absolute;
+    left: 16px;
+    top: calc(50% - 18px);
+}
+
+.Answer-Big-inner p {
+    font-size: 24px;
+}

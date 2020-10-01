@@ -1,0 +1,22 @@
+.Question {
+    border: 1px #ccc solid;
+    background-color: white;
+    box-shadow: 0 0 6px #aaa;
+    position: relative;
+    width: 90%;
+    margin: 10% auto;
+}
+
+
+.Question-Number {
+    position: absolute;
+    left: 10%;
+    top: -25px;
+    padding: 12px 24px;
+    display: flex;
+}
+
+.Question-Number h5 {
+    margin: auto;
+    color: white;
+}

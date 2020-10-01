@@ -1,0 +1,35 @@
+.Answer {
+    border: 3px #bbb solid;
+    width: 80%;
+    display: flex;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 12px 48px;
+    margin: 8px auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.Answer p {
+    margin: auto 0;
+    font-weight: 500;
+}
+
+.Answer-Radio {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px #aaa solid;
+    left: 10px;
+    top: calc(50% - 12px);
+}
+
+.Answer-Radio-inner {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: calc(50% - 7px);
+    left: calc(50% - 7px);
+}

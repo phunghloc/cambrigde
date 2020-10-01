@@ -1,0 +1,14 @@
+.NavItems {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    font-size: 18px;
+}
+
+.Sidedraw .NavItems {
+    display: block;
+}

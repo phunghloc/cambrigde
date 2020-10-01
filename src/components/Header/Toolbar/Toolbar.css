@@ -1,0 +1,14 @@
+.Toolbar {
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.Toolbar-nav {
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .Toolbar {
+        display: none;
+    }
+}

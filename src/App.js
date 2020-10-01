@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Switch, Route } from 'react-router-dom';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Header from './components/Header/Header';
+import QuickTestIntro from './containers/QuickTest/QuickTestIntro/QuickTestIntro';
+import QuickTestExam from './containers/QuickTest/QuickTestExam/QuickTestExam'
+import Result from './components/UI/Result/Result';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-light">
+
+      <Header />
+
+      <Switch>
+        <Route path="/quick-test-exam/result" exact component={Result}/>
+        <Route path="/quick-test-exam" exact component={QuickTestExam}/>
+        <Route path="/quick-test" exact component={QuickTestIntro}/>
+      </Switch>
+ 
     </div>
   );
 }

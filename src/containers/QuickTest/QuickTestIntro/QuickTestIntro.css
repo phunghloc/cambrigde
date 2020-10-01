@@ -1,0 +1,68 @@
+.QuickTestIntro {
+    background-color: white;
+}
+
+.QuickTestIntro-Title {
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    border-bottom: 10px #666 solid;
+    padding: 0;
+    background-color: #efefef;
+}
+
+.QuickTestIntro-Title h3 {
+    margin: auto 0;
+}
+
+.QuickTestIntro img {
+    width: 100%;
+}
+
+.QuickTestIntro-Button {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.QuickTestIntro-Button a {
+    width: 48%;
+    text-decoration: none;
+}
+
+.QuickTestIntro-Btn {
+    width: 100%;
+    cursor: pointer;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .QuickTestIntro-Button {
+        flex-direction: column;
+    }
+    
+    .QuickTestIntro-Button a {
+        width: 100%;
+    }
+
+    .QuickTestIntro-Btn {
+        width: 96%;
+        margin: 0 auto 12px auto;
+    }
+
+}
+
+.QuickTestIntro-Btn-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.QuickTestIntro-Btn-info p {
+    margin: 4px;
+}
