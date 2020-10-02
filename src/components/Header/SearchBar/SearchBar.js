@@ -6,7 +6,7 @@ import './SearchBar.css';
 const searchBar = () => {
     return (
         <div className="SearchBar rounded-pill">
-            <input type="text" className=" m-auto" placeholder="Tìm kiếm..."/>
+            <input type="text" className=" m-auto" placeholder="Search..."/>
             <Button className="px-4"><i className="fa fa-search text-dark"></i></Button>
         </div>
     );

@@ -1,0 +1,8 @@
+.CarouselCpnts p,
+.CarouselCpnts h3 {
+    color: white;
+}
+
+.CarouselCpnts img {
+    filter: brightness(0.6);
+}

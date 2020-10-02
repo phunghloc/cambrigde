@@ -1,0 +1,34 @@
+.CardIntro {
+    background-color: white;
+}
+
+.Card-Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card-Item {
+    box-sizing: border-box;
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.Card-title {
+    border-bottom: 4px transparent solid;
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: clip; 
+}
+
+
+@media (max-width: 992px) {
+    .Card-Container {
+        flex-direction: column;
+    }
+
+    .Card-Item {
+        width: 90%;
+    }
+}

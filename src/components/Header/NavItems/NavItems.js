@@ -6,9 +6,9 @@ import NavItem from './NavItem/NavItem';
 const navItems = () => {
     return (
         <ul className="NavItems">
-            <NavItem link = '/' exact = {true}> Trang chủ </NavItem>
-            <NavItem link = '/quick-test'> Kiểm tra </NavItem>
-            <NavItem link = '/contact'> Liên hệ </NavItem>
+            <NavItem link = '/' exact = {true}> Home </NavItem>
+            <NavItem link = '/quick-test'> Quick Test </NavItem>
+            <NavItem link = '/contact'> Contact </NavItem>
         </ul>
     );
 }

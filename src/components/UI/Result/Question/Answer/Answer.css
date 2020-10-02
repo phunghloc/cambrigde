@@ -5,6 +5,7 @@
 
 .Answer-Big .Answer {
     width: 100%;
+    cursor: default;
 }
 
 .Answer-Big-inner {

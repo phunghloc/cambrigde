@@ -12,7 +12,6 @@ export default function Answer(props) {
             </p>
             <div 
                 className={`Answer border-${classes} text-${classes}`}
-                onClick={() => props.clicked(props.index, props.children)}
             >
                 <p>{props.children}</p>
                 <div className="Answer-Big-inner">

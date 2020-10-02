@@ -12,7 +12,7 @@ const questions = [
                 'responsibility',
             ],
         },
-        correct: ['responsibility'],
+        correct: 'responsibility',
     },
     {
         question: {
@@ -27,7 +27,7 @@ const questions = [
                 'where can he change some money',
             ],
         },
-        correct: ['where he could change some money'],
+        correct: 'where he could change some money',
     },
     {
         question: {
@@ -42,7 +42,7 @@ const questions = [
                 'had told',
             ],
         },
-        correct: ['had told'],
+        correct: 'had told',
     },
     {
         question: {
@@ -57,7 +57,7 @@ const questions = [
                 'Agreement',
             ],
         },
-        correct: ['In my opinion'],
+        correct: 'In my opinion',
     },
     {
         question: {
@@ -72,7 +72,7 @@ const questions = [
                 'load',
             ],
         },
-        correct: ['burden'],
+        correct: 'burden',
     },
     {
         question: {
@@ -87,7 +87,7 @@ const questions = [
                 'obedient',
             ],
         },
-        correct: ['mischievous'],
+        correct: 'mischievous',
     },
     {
         question: {

@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import QuickTestIntro from './containers/QuickTest/QuickTestIntro/QuickTestIntro';
 import QuickTestExam from './containers/QuickTest/QuickTestExam/QuickTestExam'
 import Result from './components/UI/Result/Result';
+import Home from './components/Home/Home';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/quick-test-exam/result" exact component={Result}/>
         <Route path="/quick-test-exam" exact component={QuickTestExam}/>
         <Route path="/quick-test" exact component={QuickTestIntro}/>
+        <Route path="/" component={Home}/>
       </Switch>
  
     </div>
