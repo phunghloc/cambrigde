@@ -53,7 +53,8 @@
         width: 90%;
     }
 
-    .CardWidth-Item {
+    .CardWidth-Item,
+    .CardWidth-Item:nth-child(even) {
         flex-direction: column;
     }
 

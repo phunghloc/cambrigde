@@ -9,6 +9,7 @@ import QuickTestIntro from './containers/QuickTest/QuickTestIntro/QuickTestIntro
 import QuickTestExam from './containers/QuickTest/QuickTestExam/QuickTestExam'
 import Result from './components/UI/Result/Result';
 import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Route path="/" component={Home}/>
       </Switch>
  
+      <Footer />
+      
     </div>
   );
 }

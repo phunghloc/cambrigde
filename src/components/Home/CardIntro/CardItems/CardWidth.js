@@ -8,7 +8,7 @@ import img4 from '../../../../assets/img/ap4.jpg';
 import logo1 from '../../../../assets/img/ap1logo.png';
 import logo2 from '../../../../assets/img/ap2logo.png';
 import logo3 from '../../../../assets/img/ap3logo.png';
-import logo4 from '../../../../assets/img/logo.png';
+import logo4 from '../../../../assets/img/footer4.png';
 
 const cardsList = [
     {

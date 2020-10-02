@@ -1,0 +1,50 @@
+.Connect-Img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Connect-Img img {
+    margin: auto;
+    width: 48%;
+}
+
+@media (max-width: 767px) {
+    .Connect-Img {
+        flex-direction: column;
+    }
+
+    .Connect-Img img {
+        width: 90%;
+    }
+}
+
+.Connect-Social {
+    display: flex;
+    justify-content: center;
+}
+
+.Connect-Social-item {
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+}
+
+.Connect-Social-item:nth-child(2) img {
+    transform: translate(-27px, 0);
+}
+
+.Connect-Social-item:nth-child(3) img {
+    transform: translate(0, -27px);
+}
+
+.Connect-Social-item:nth-child(4) img {
+    transform: translate(-27px, -26px);
+}
+
+.Connect-Social-item:nth-child(5) img {
+    transform: translate(0, -54px);
+}
+
+.Connect-Social-item:nth-child(6) img {
+    transform: translate(-27px, -54px);
+}

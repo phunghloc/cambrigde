@@ -28,7 +28,7 @@ const result = (props) => {
     })
 
     return (
-        <Container className="Exam-Screen">
+        <Container className="Exam-Screen pb-5">
             <div className="QuickTestIntro-Title pl-4 mb-5">
                 <h3>General English - Your Result</h3>
             </div>

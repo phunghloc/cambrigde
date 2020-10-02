@@ -8,7 +8,7 @@ const questions = (props) => {
     return (
         <div className="Question rounded pb-4">
             <div className="Question-Number bg-primary rounded">
-                <h5>Câu {props.order}</h5>
+                <h5>Question {props.order}</h5>
             </div>
             <Detail 
                 question={props.data.question}

@@ -5,6 +5,7 @@ import './Home.css';
 import Carousel from './Carousel/Carousel';
 import CardIntro from './CardIntro/CardIntro';
 import CircleCard from './CircleCard/CircleCard';
+import Connect from './Connect/Connect';
 
 const index = () => {
     return (
@@ -14,6 +15,8 @@ const index = () => {
             <CardIntro />
 
             <CircleCard />
+
+            <Connect />
         </Container>
     );
 }

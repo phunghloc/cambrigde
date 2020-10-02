@@ -32,7 +32,7 @@ const QuickTestExam = (props) => {
         );
     })
     return (
-        <Container className="Exam-Screen">
+        <Container className="Exam-Screen pb-5">
             <div className="QuickTestIntro-Title pl-4 mb-5">
                 <h3>General English</h3>
             </div>
@@ -43,7 +43,7 @@ const QuickTestExam = (props) => {
             <div className="Exam-Screen-SendBtn">
                 <Link to='/quick-test-exam/result'>
                     <Button 
-                        className='btn btn-primary py-2 px-4'
+                        className='btn btn-primary py-2 px-4 mb-5'
                         onClick={()=>props.sendAnswer(answersList)}
                     >
                         GET RESULT
