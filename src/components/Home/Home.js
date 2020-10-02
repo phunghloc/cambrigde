@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import './Home.css';
 import Carousel from './Carousel/Carousel';
 import CardIntro from './CardIntro/CardIntro';
+import CircleCard from './CircleCard/CircleCard';
 
 const index = () => {
     return (
@@ -12,6 +13,7 @@ const index = () => {
 
             <CardIntro />
 
+            <CircleCard />
         </Container>
     );
 }

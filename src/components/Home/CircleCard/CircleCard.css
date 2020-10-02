@@ -1,0 +1,27 @@
+.CircleCard-div {
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(0.85);
+    cursor: pointer;
+}
+
+.CircleCardItem {
+    width: 30%;
+}
+
+.CircleCardItem img{
+    border: 10px solid transparent;
+    transition: border 0.3s ease-out;
+}
+
+
+@media (max-width: 767px) {
+    .CircleCard-div {
+        flex-direction: column;
+    }
+
+    .CircleCardItem {
+        width: 60%;
+        margin: auto;
+    }
+}

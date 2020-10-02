@@ -22,6 +22,27 @@
     text-overflow: clip; 
 }
 
+.CardWidth-Item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardWidth-Img {
+    min-height: 400px;
+    flex: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.CardWidth-Info {
+    flex: 1;
+}
+
+.CardWidth-Item:nth-child(even) {
+    flex-direction: row-reverse;
+}
 
 @media (max-width: 992px) {
     .Card-Container {
@@ -31,4 +52,9 @@
     .Card-Item {
         width: 90%;
     }
+
+    .CardWidth-Item {
+        flex-direction: column;
+    }
+
 }
