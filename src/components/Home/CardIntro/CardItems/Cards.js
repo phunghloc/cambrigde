@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Zoom } from 'react-reveal';
 
 import img1 from '../../../../assets/img/Homepage_400x175px_Image_Learner.jpg';
 import img2 from '../../../../assets/img/Homepage_400x175px_Image_Teacher.jpg';
@@ -28,22 +29,24 @@ const cardsList = [
 
 const cards = () => {
     return (
-        <div className="Card-Container mb-2">
-            {cardsList.map(card => {
-                return (
-                    <div className="Card-Item rounded mb-4" key = {card.border}>
-                        <div className={"Card-title w-100 pl-2 pt-2 " + card.border}>
-                            <h3>{card.title}</h3>
+        <Zoom right cascade>
+            <div className="Card-Container mb-2">
+                {cardsList.map(card => {
+                    return (
+                        <div className="Card-Item rounded mb-4" key = {card.border}>
+                            <div className={"Card-title w-100 pl-2 pt-2 " + card.border}>
+                                <h3>{card.title}</h3>
+                            </div>
+                            <img src={card.img} alt={card.title} className="w-100 my-2"/>
+                            <p className="my-2"> {card.detail} </p>
+                            <div className='d-flex my-4'>
+                                <Button className='btn-dark mx-auto' >Find out more</Button>
+                            </div>
                         </div>
-                        <img src={card.img} alt={card.title} className="w-100 my-2"/>
-                        <p className="my-2"> {card.detail} </p>
-                        <div className='d-flex my-4'>
-                            <Button className='btn-dark mx-auto' >Find out more</Button>
-                        </div>
-                    </div>
-                );
-            })}
-        </div>
+                    );
+                })}
+            </div>
+        </Zoom>
     );
 }
 

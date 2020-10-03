@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Spin } from 'react-reveal';
 
 import './CircleCard.css';
 import CircleCardItem from './CircleCardItem';
@@ -30,13 +31,14 @@ const circleCard = () => {
             <h2>Want to improve your English?</h2>
             <p className="py-3">Practice material and learning resources to help you improve your English.</p>
             <div className='CircleCard-div'>
-                {cardList.map(card => {
+                {cardList.map((card, index)=> {
                     return (
                         <CircleCardItem 
                             key = {card.title}
                             img = {card.img}
                             title = {card.title}
                             border = {card.border}
+                            index = {index}
                         />
                     );
                 })}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Bounce } from 'react-reveal';
 
 import img1 from '../../../../assets/img/ap1.jpg';
 import img2 from '../../../../assets/img/ap2.jpg';
@@ -41,19 +42,25 @@ const cardsList = [
 const cardWidth = () => {
     return (
         <div className="CardWidth">
-            {cardsList.map(card => {
+            {cardsList.map((card, index) => {
                 return (
-                    <div className="CardWidth-Item mb-5" key={card.title}>
-                        <div className="CardWidth-Img" style={{backgroundImage: `url(${card.img})`}} ></div>
-                        <div className="CardWidth-Info pt-5 px-5">
-                            <img className="mb-4" src={card.logo} alt={card.title}/>
-                            <h3>{card.title}</h3>
-                            <p>{card.detail}</p>
-                            <div className='d-flex mt-5'>
-                                <Button className='btn-dark mx-auto' >{card.test || 'Find out more'}</Button>
+                    <Bounce 
+                        left={index % 2 === 0}
+                        right={index % 2 !== 0} 
+                        key={card.title} 
+                    >
+                        <div className="CardWidth-Item mb-5" key={card.title}>
+                            <div className="CardWidth-Img" style={{backgroundImage: `url(${card.img})`}} ></div>
+                            <div className="CardWidth-Info pt-5 px-5">
+                                <img className="mb-4" src={card.logo} alt={card.title}/>
+                                <h3>{card.title}</h3>
+                                <p>{card.detail}</p>
+                                <div className='d-flex mt-5'>
+                                    <Button className='btn-dark mx-auto' >{card.test || 'Find out more'}</Button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Bounce>
                 );
             })}
         </div>
