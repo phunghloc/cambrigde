@@ -6,7 +6,7 @@ import { Redirect } from 'react-router-dom';
 import './Result.css';
 import Question from './Question/Question';
 
-const result = (props) => {
+const Result = (props) => {
     if (!props.questions) {
         return <Redirect to='/' />;
     }
@@ -50,4 +50,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps)(result);
+export default connect(mapStateToProps)(Result);

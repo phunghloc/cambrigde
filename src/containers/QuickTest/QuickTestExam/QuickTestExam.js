@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Container, Button } from 'react-bootstrap';
 import { Link, Redirect } from 'react-router-dom';
@@ -16,6 +16,10 @@ const QuickTestExam = (props) => {
         newAnswersList[index] = answer;
         setAnswersList(newAnswersList);
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     if (!length) return (<Redirect to='/' />);
 
@@ -44,7 +48,10 @@ const QuickTestExam = (props) => {
                 <Link to='/quick-test-exam/result'>
                     <Button 
                         className='btn btn-primary py-2 px-4 mb-5'
-                        onClick={()=>props.sendAnswer(answersList)}
+                        onClick={() => {
+                            props.sendAnswer(answersList);
+                            window.scrollTo(0, 0);
+                        }}
                     >
                         GET RESULT
                     </Button>
