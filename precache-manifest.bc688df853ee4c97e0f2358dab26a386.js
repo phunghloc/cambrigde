@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0d2004c26983bedc3f2c6d860d426ec",
+    "revision": "c0c3042007d56fd2e95fab9f90dfd824",
     "url": "/cambrigde/index.html"
   },
   {
-    "revision": "1d59fd3961fc3049a43e",
+    "revision": "e5d63d05303bd38e8817",
     "url": "/cambrigde/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "405baac79a52183746b5",
-    "url": "/cambrigde/static/css/main.1d441849.chunk.css"
+    "revision": "a9132d7cd9960fd494d5",
+    "url": "/cambrigde/static/css/main.acc21029.chunk.css"
   },
   {
-    "revision": "1d59fd3961fc3049a43e",
-    "url": "/cambrigde/static/js/2.3f61e0b1.chunk.js"
+    "revision": "e5d63d05303bd38e8817",
+    "url": "/cambrigde/static/js/2.dc4ade84.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/cambrigde/static/js/2.3f61e0b1.chunk.js.LICENSE.txt"
+    "url": "/cambrigde/static/js/2.dc4ade84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "405baac79a52183746b5",
-    "url": "/cambrigde/static/js/main.059acc1f.chunk.js"
+    "revision": "a9132d7cd9960fd494d5",
+    "url": "/cambrigde/static/js/main.e61a7fe0.chunk.js"
   },
   {
     "revision": "c5e318978ee3e855d610",
