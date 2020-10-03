@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0c3042007d56fd2e95fab9f90dfd824",
+    "revision": "4cb106ea2cf14b32518cd39ab3fbf433",
     "url": "/cambrigde/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cambrigde/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "a9132d7cd9960fd494d5",
+    "revision": "d5a2f2df3763469c27ff",
     "url": "/cambrigde/static/css/main.acc21029.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cambrigde/static/js/2.dc4ade84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9132d7cd9960fd494d5",
-    "url": "/cambrigde/static/js/main.e61a7fe0.chunk.js"
+    "revision": "d5a2f2df3763469c27ff",
+    "url": "/cambrigde/static/js/main.4b49ca5b.chunk.js"
   },
   {
     "revision": "c5e318978ee3e855d610",
